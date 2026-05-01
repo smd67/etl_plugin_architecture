@@ -1,0 +1,932 @@
+INFO:     172.20.0.1:58780 - "GET /get-table-headers HTTP/1.1" 200 OK
+INFO:     172.20.0.1:58780 - "GET /get-properties HTTP/1.1" 200 OK
+INFO:     172.20.0.1:58780 - "GET /get-icon HTTP/1.1" 200 OK
+content_1=<!DOCTYPE html><html lang="en"><head><meta http-equiv="origin-trial" content="A7vZI3v+Gz7JfuRolKNM4Aff6zaGuT7X0mf3wtoZTnKv6497cVMnhy03KDqX7kBz/q/iidW7srW31oQbBt4VhgoAAACUeyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGUuY29tOjQ0MyIsImZlYXR1cmUiOiJEaXNhYmxlVGhpcmRQYXJ0eVN0b3JhZ2VQYXJ0aXRpb25pbmczIiwiZXhwaXJ5IjoxNzU3OTgwODAwLCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ==">
+<meta name="description" content="The book search and book price comparison engine is built to ease online book shopping. One click to compare price among 100,000+ booksellers. Save your time and money by the free online service">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+<meta property="twitter:title" content="AddALL Price Comparison: New &amp; Used books, Textbooks">
+<meta property="twitter:description" content="One-click to search and compare book price among thousands of booksellers by using AddALL.com">
+<meta property="twitter:image" content="https://www.addall.com/images/addall-main.jpg">
+<meta property="twitter:url" content="https://www.addall.com/">
+<meta property="twitter:card" content="summary_large_image">
+<meta name="twitter:creator" content="@addall">
+
+<meta property="og:title" content="AddALL Price Comparison: New &amp; Used books, Textbooks">
+<meta property="og:description" content="One-click to search and compare book price among thousands of booksellers by using AddALL.com">
+<meta property="og:image" content="https://www.addall.com/images/addall-main.jpg">
+<meta property="og:url" content="https://www.addall.com/">
+<meta property="og:type" content="website">
+<meta property="fb:app_id" content="326645368475561">
+<meta name="author" content="addall">
+
+<title>Book Search: Textbooks, Cheap Books Online Price Comparison</title>
+  <link rel="canonical" href="https://www.addall.com/">
+  <link rel="preload" href="/css/jquery-ui.min.css" as="style" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/jquery-ui.min.css">
+  <link rel="preload" href="/css/addall2.css" as="style" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/addall2.css">
+  <link rel="stylesheet" href="/css/notab.css">
+  <link rel="stylesheet" href="/blog/css/custom.css">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+<style>
+.topnav .dropbtn{background-color:#fff;color:green;font-size:15px;padding:5px 10px;}
+.topnav{background-color: #fff;}
+.topnav a{color: green;}
+.topnav .new{border-bottom:2px solid red;border-radius:0;}
+#titlefirst{display:none;}
+#authorfirst{display:table-row;}
+.tooltip-e{text-decoration:none;}
+</style>
+</head>
+<body>
+<button onclick="topFunction()" id="topBtn" title="Go to top">Go Top</button>
+<div class="header-logo">
+	<a href="/"><img loading="lazy" src="/images/logo.png" width="145" height="70" style="border: none;" alt="addall logo"></a>
+	<div class="header-slogan">Book Search and Price Comparison</div>
+</div>
+
+<div class="topnav" id="myTopnav">
+  <div class="topnav-container">
+        <a href="/">Home</a>
+        <a href="https://www.addall.com/reviews/">Book reviews</a>
+        <div class="dropdown">
+            <button class="dropbtn">Advanced book search
+            </button>
+            <div class="dropdown-content">
+                <a href="/advanced/">Author field first</a>
+                <a href="/advanced/?titlefirst" rel="nofollow">Title field first</a>
+        <a href="/classic/">Classic page</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <button class="dropbtn">Memo
+            </button>
+            <div class="dropdown-content">
+              <a href="/SuperRare/MemoRare.cgi" rel="nofollow">Used Book Memo</a>
+              <a href="/SuperRare/MemoLog.cgi" rel="nofollow">Saved Search</a>
+              <a href="/New/Memo.cgi" rel="nofollow">New Book Memo</a>
+            </div>
+        </div>
+
+        <a href="/contact/" rel="nofollow">Contact</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">☰</a>
+  </div>
+</div>
+
+
+<br>
+<p class="disclosure">DISCLOSURE:
+When you click on links to various merchants on this site and make a purchase, this can result in this site earning a commission at no extra cost to you. Affiliate programs and affiliations include, but are not limited to, the eBay Partner Network, Amazon and Alibris.
+</p>
+
+
+<div class="columnsContainer">
+    <div class="rightColumn">
+<div style="width:300px;">
+Please share to <a href="https://www.facebook.com/share.php?u=https://www.addall.com/">
+<img loading="lazy" src="/icons/social-fb-32.png" width="32" height="32" title="share to facebook" alt="share to facebook"></a>
+
+<a href="https://twitter.com/share?url=https://www.addall.com/&amp;text=AddALL%20book%20price%20comparison+One-click%20to%20search%20and%20compare%20book%20price%20among%20thousands%20of%20booksellers%20by%20using%20AddALL.com">
+<img loading="lazy" src="/icons/social-twitter-32.png" width="32" height="32" title="share to twitter" alt="share to twitter"></a>
+
+<a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://www.addall.com/&amp;title=AddALL%20book%20price%20comparison&amp;summary=One-click%20to%20search%20and%20compare%20book%20price%20among%20thousands%20of%20booksellers%20by%20using%20AddALL.com&amp;source=addall.com">
+<img loading="lazy" src="/icons/social-linkedin-32-2.png" width="32" height="32" title="share to linkedin" alt="share to linkedin"></a>
+
+<a href="mailto:?subject=AddALL%20book%20price%20comparison&amp;body=https://www.addall.com/">
+<img loading="lazy" src="/icons/social-mail-32.png" width="32" height="32" title="share by email" alt="share by email"></a>
+</div>
+<style>#authorfirst{display:table-row;}
+#titlefirst{display:none;}
+</style>        <div id="notabs" class="tabs-smaller">
+        <ul class="ui-notabs ui-helper-clearfix">
+            <li class="li-active li-all tooltip" title="New &amp; used books&lt;br&gt;price comparison&lt;br&gt;include shipping">In-print Books</li>
+            <li class="li-all li-inactive "><a href="/used/" style="text-decoration:none;color:black;" title="Used and out-of-print books&lt;br&gt;without shipping" class="tooltip">Used Books</a></li>
+        </ul>
+        <div id="newbook">
+        <div class="container">
+	    <div style="width:100%;"><h3 style="font-weight:600;margin:2px;">New &amp; used books price comparison with shipping!</h3>
+	    </div>
+
+<script type="text/javascript" async="" charset="utf-8" src="https://www.gstatic.com/recaptcha/releases/gTpTIWhbKpxADzTzkcabhXN4/recaptcha__en.js" crossorigin="anonymous" integrity="sha384-H/5bR8BVxoDZIIp1lThXvsuAj/gHvImPQ0kayVpCevmOrRalo0FwJubK3EoX8w37"></script><script src="https://www.google.com/recaptcha/api.js?render=6Lf1RPwUAAAAAKWd9ELWFLkUcz3MSOUFrubyS0Hr"></script>
+<script>
+grecaptcha.ready(function() {
+    grecaptcha.execute('6Lf1RPwUAAAAAKWd9ELWFLkUcz3MSOUFrubyS0Hr', {action: 'submit_new'})
+    .then(function(token) {
+        document.getElementById('g-recaptcha-response').value = token;
+    });
+});
+
+// Also handle when the page is restored from cache (e.g., after clicking the back button)
+window.onpageshow = function(event) {
+    if (event.persisted) {
+        // If the page is loaded from bfcache, refresh the reCAPTCHA token
+        grecaptcha.execute('6Lf1RPwUAAAAAKWd9ELWFLkUcz3MSOUFrubyS0Hr', {action: 'submit_new'})
+        .then(function(token) {
+            document.getElementById('g-recaptcha-response').value = token;
+        });
+    }
+};
+
+</script>
+            <form action="/New/NewSearch.cgi" name="newform" accept-charset="UTF-8">
+            <input id="query" type="search" name="query" placeholder="search">
+
+            <select name="type">
+                <option value="Title" style="">Search by Title</option>
+                <option value="Author" style="">Search by Author</option>
+                <option value="ISBN" style="">Search by ISBN</option>
+                <option value="Key" style="">Search by Keyword</option>
+            </select>
+
+            <select name="location">
+                <option value="">Shipping Destination:</option>
+                <option value="10000"> Continental United States</option>
+                <option value="10100">   APO or FPO</option>
+                <option value="10200">   Alaska or Hawaii</option>
+                <option value="10300">   U.S. Virgin Islands</option>
+                <option value="10400">   Puerto Rico</option>
+                <option value="11000"> Canada</option>
+                <option value="12000"> Mexico</option>
+                <option value="19000"> Latin American Country</option>
+                <option value="20000"> Europe</option>
+                <option value="20300">   Austria</option>
+                <option value="20600">   Belgium</option>
+                <option value="20900">   France</option>
+                <option value="20200">   Germany</option>
+                <option value="20100">   Great Britain</option>
+                <option value="20500">   Liechtenstein</option>
+                <option value="20800">   Luxembourg</option>
+                <option value="20700">   Netherlands</option>
+                <option value="20400">   Switzerland</option>
+                <option value="20000">   Other European Country</option>
+                <option value="30000"> Asian and Pacific Islands</option>
+                <option value="30100">   Guam</option>
+                <option value="30000">   Israel</option>
+                <option value="30000">   Other Asian Country</option>
+                <option value="40000"> Australasia  </option>
+                <option value="40100">   Australia</option>
+                <option value="40200">   New Zealand</option>
+                <option value="50000"> Africa  </option>
+            </select>
+
+            <select name="state">
+                <option value="">US State</option>
+                <option value="AK">AK - Alaska</option>
+                <option value="AL">AL - Alabama</option>
+                <option value="AR">AR - Arkansas</option>
+                <option value="AZ">AZ - Arizona</option>
+                <option value="CA">CA - California</option>
+                <option value="CO">CO - Colorado</option>
+                <option value="CT">CT - Connecticut</option>
+                <option value="DC">DC - District of Columbia</option>
+                <option value="DE">DE - Delaware</option>
+                <option value="FL">FL - Florida</option>
+                <option value="GA">GA - Georgia</option>
+                <option value="GU">GU - Guam</option>
+                <option value="HI">HI - Hawaii</option>
+                <option value="IA">IA - Iowa</option>
+                <option value="ID">ID - Idaho</option>
+                <option value="IL">IL - Illinois</option>
+                <option value="IN">IN - Indiana</option>
+                <option value="KS">KS - Kansas</option>
+                <option value="KY">KY - Kentucky</option>
+                <option value="LA">LA - Louisiana</option>
+                <option value="MA">MA - Massachusetts</option>
+                <option value="MD">MD - Maryland</option>
+                <option value="ME">ME - Maine</option>
+                <option value="MI">MI - Michigan</option>
+                <option value="MN">MN - Minnesota</option>
+                <option value="MO">MO - Missouri</option>
+                <option value="MS">MS - Mississippi</option>
+                <option value="MT">MT - Montana</option>
+                <option value="NC">NC - North Carolina</option>
+                <option value="ND">ND - North Dakota</option>
+                <option value="NE">NE - Nebraska</option>
+                <option value="NV">NV - Nevada</option>
+                <option value="NH">NH - New Hampshire</option>
+                <option value="NJ">NJ - New Jersey</option>
+                <option value="NM">NM - New Mexico</option>
+                <option value="NY">NY - New York</option>
+                <option value="OH">OH - Ohio</option>
+                <option value="OK">OK - Oklahoma</option>
+                <option value="OR">OR - Oregon</option>
+                <option value="PA">PA - Pennsylvania</option>
+                <option value="PR">PR - Puerto Rico</option>
+                <option value="RI">RI - Rhode Island</option>
+                <option value="SC">SC - South Carolina</option>
+                <option value="SD">SD - South Dakota</option>
+                <option value="TN">TN - Tennessee</option>
+                <option value="TX">TX - Texas</option>
+                <option value="UT">UT - Utah</option>
+                <option value="VA">VA - Virginia</option>
+                <option value="VT">VT - Vermont</option>
+                <option value="WA">WA - Washington</option>
+                <option value="WI">WI - Wisconsin</option>
+                <option value="WV">WV - West Virginia</option>
+                <option value="WY">WY - Wyoming</option>
+            </select>
+                    
+            <select name="dispCurr">
+                <option value="">Display Currency in</option>
+                    <option class="USD" value="USD" selected="">US$</option>
+                    <option class="EUR" value="EUR">EURO</option>
+                    <option class="AUD" value="AUD">Australian$</option>
+                    <option class="CAD" value="CAD">Canadian$</option>
+                    <option class="INR" value="INR">Indian Rupee</option>
+                    <option class="JPY" value="JPY">Japanese ¥en</option>
+                    <option class="CHF" value="CHF">Swiss Franc</option>
+                    <option class="TWD" value="TWD">Taiwan NT</option>
+                    <option class="NZD" value="NZD">New Zealand</option>
+                    <option class="SGD" value="SGD">Singapore$</option>
+                    <option class="ZAR" value="ZAR">S. Africa Rand</option>
+                    <option class="SEK" value="SEK">Swedish Krona</option>
+                    <option class="GBP" value="GBP">UK£</option>
+            </select>
+		<input type="hidden" name="via" value="new">
+<input type="hidden" name="g-recaptcha-response" id="g-recaptcha-response">
+            <button type="submit" class="newbtn">Comparison with shipping</button>
+            <button type="reset" class="clearbtn">Start Over</button>
+            </form>
+        </div><!-- container-->
+        </div> <!-- newbook-->
+
+        </div>
+
+<div style="margin:0 0 7px 0;line-height:2;">
+Please follow us on <a href="https://www.facebook.com/addallcom" target="_blank">
+<img loading="lazy" src="/icons/social-fb-32.png" width="32" height="32" title="AddALL facebook page" alt="AddALL Facebook page"></a> 
+<a href="https://twitter.com/addall" target="_blank">
+<img loading="lazy" src="/icons/social-twitter-32.png" width="32" height="32" title="twitter page" alt="twitter page"></a>
+</div>
+
+    </div> <!-- div rightColumn-->
+
+    <div class="leftColumn">
+        <h1>Buy Textbooks, Cheap Books Online Book Price Comparison? </h1>
+        <h2>No problem AddALL!</h2>
+		<p>AddALL is a website that compares book prices among all top bookstores. You will find cheapest books here.</p>
+        <p>
+            Search and Compare prices among 100,000+ booksellers, bookstores, millions of books! 
+		One-click to find and buy cheap new, used and <a href="/textbooks/" class="black">college textbooks</a>. Search books easily by ISBN, author or title.  Best results by <a href="/isbn/" class="black">ISBN lookup</a>. </p>
+
+		<p>You can find the cheapest textbook prices by using this book price comparison website. Compare textbook bookstores prices is easy here!
+		</p>
+
+		<p>Before you decide to purchase, you can read our <a class="link-green-bottom black" href="/reviews/">Book reviews</a> or <a class="link-green-bottom black" href="/bikes/">Bike reviews</a> to see what others say about a product.
+        </p>
+		<p>Please visit <a class="link-green-bottom black" href="/books-in-order/">books in order</a> to find out which book comes next when reading a series, the list of books in publication and reading order by author.</p>
+    </div>
+
+</div>
+
+<div class="copyright">
+<p><b>DISCLOSURE:
+When you click on links to various merchants on this site and make a purchase, this can result in this site earning a commission at no extra cost to you. Affiliate programs and affiliations include, but are not limited to, the eBay Partner Network, Amazon, Alibris.
+</b>
+</p>
+
+[<a href="/privacy.html" rel="nofollow">Privacy policy</a>
+| <a href="/New/quote.cgi">Random quotes</a>
+| <a href="/link/" rel="nofollow">Link to us</a>
+| <a href="/about/">About us</a>
+]<br>
+
+Copyright © 1998-<span id="current-year">2026</span>, Addall.com Pte Ltd. All rights reserved.
+<script>document.getElementById("current-year").innerHTML = new Date().getFullYear();</script>
+</div>
+<link rel="preload" href="/js/jquery.ui.respond.powertip.min.js" as="script" crossorigin="anonymous">
+<link rel="preload" href="/js/addall2.js" as="script" crossorigin="anonymous">
+<script>
+(function() {
+      function getScript(url,success){
+        var script=document.createElement('script');
+        script.src=url;
+        var head=document.getElementsByTagName('head')[0],
+            done=false;
+        script.onload=script.onreadystatechange = function(){
+          if ( !done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete') ) {
+            done=true;
+            success();
+            script.onload = script.onreadystatechange = null;
+            head.removeChild(script);
+          }
+        };
+        head.appendChild(script);
+      }
+        getScript('/js/jquery.ui.respond.powertip.min.js',function(){
+  $( function() {
+$("#tabs").tabs({
+  active: localStorage.getItem("currentIdx"),
+  activate: function(event, ui) {
+      localStorage.setItem("currentIdx", $(this).tabs('option', 'active'));
+  }
+});
+  } );
+              getScript('/js/addall2.js',function(){
+              });
+        });
+    })();
+</script>
+<script>
+var mybutton = document.getElementById("topBtn");
+window.onscroll = function() {scrollFunction()};
+function scrollFunction() {
+  if (document.body.scrollTop > 520 || document.documentElement.scrollTop > 520) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-144411-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-144411-1');
+  gtag('config', 'G-96981GDF72');
+</script>
+
+
+
+
+
+</body></html>
+content_2=<!DOCTYPE html><html lang="en"><head><meta http-equiv="origin-trial" content="A7vZI3v+Gz7JfuRolKNM4Aff6zaGuT7X0mf3wtoZTnKv6497cVMnhy03KDqX7kBz/q/iidW7srW31oQbBt4VhgoAAACUeyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGUuY29tOjQ0MyIsImZlYXR1cmUiOiJEaXNhYmxlVGhpcmRQYXJ0eVN0b3JhZ2VQYXJ0aXRpb25pbmczIiwiZXhwaXJ5IjoxNzU3OTgwODAwLCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ==">
+<meta name="description" content="The book search and book price comparison engine is built to ease online book shopping. One click to compare price among 100,000+ booksellers. Save your time and money by the free online service">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+<meta property="twitter:title" content="AddALL Price Comparison: New &amp; Used books, Textbooks">
+<meta property="twitter:description" content="One-click to search and compare book price among thousands of booksellers by using AddALL.com">
+<meta property="twitter:image" content="https://www.addall.com/images/addall-main.jpg">
+<meta property="twitter:url" content="https://www.addall.com/">
+<meta property="twitter:card" content="summary_large_image">
+<meta name="twitter:creator" content="@addall">
+
+<meta property="og:title" content="AddALL Price Comparison: New &amp; Used books, Textbooks">
+<meta property="og:description" content="One-click to search and compare book price among thousands of booksellers by using AddALL.com">
+<meta property="og:image" content="https://www.addall.com/images/addall-main.jpg">
+<meta property="og:url" content="https://www.addall.com/">
+<meta property="og:type" content="website">
+<meta property="fb:app_id" content="326645368475561">
+<meta name="author" content="addall">
+
+<title>Book Search: Textbooks, Cheap Books Online Price Comparison</title>
+  <link rel="canonical" href="https://www.addall.com/">
+  <link rel="preload" href="/css/jquery-ui.min.css" as="style" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/jquery-ui.min.css">
+  <link rel="preload" href="/css/addall2.css" as="style" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/addall2.css">
+  <link rel="stylesheet" href="/css/notab.css">
+  <link rel="stylesheet" href="/blog/css/custom.css">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+<style>
+.topnav .dropbtn{background-color:#fff;color:green;font-size:15px;padding:5px 10px;}
+.topnav{background-color: #fff;}
+.topnav a{color: green;}
+.topnav .new{border-bottom:2px solid red;border-radius:0;}
+#titlefirst{display:none;}
+#authorfirst{display:table-row;}
+.tooltip-e{text-decoration:none;}
+</style>
+</head>
+<body>
+<button onclick="topFunction()" id="topBtn" title="Go to top">Go Top</button>
+<div class="header-logo">
+	<a href="/"><img loading="lazy" src="/images/logo.png" width="145" height="70" style="border: none;" alt="addall logo"></a>
+	<div class="header-slogan">Book Search and Price Comparison</div>
+</div>
+
+<div class="topnav" id="myTopnav">
+  <div class="topnav-container">
+        <a href="/">Home</a>
+        <a href="https://www.addall.com/reviews/">Book reviews</a>
+        <div class="dropdown">
+            <button class="dropbtn">Advanced book search
+            </button>
+            <div class="dropdown-content">
+                <a href="/advanced/">Author field first</a>
+                <a href="/advanced/?titlefirst" rel="nofollow">Title field first</a>
+        <a href="/classic/">Classic page</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <button class="dropbtn">Memo
+            </button>
+            <div class="dropdown-content">
+              <a href="/SuperRare/MemoRare.cgi" rel="nofollow">Used Book Memo</a>
+              <a href="/SuperRare/MemoLog.cgi" rel="nofollow">Saved Search</a>
+              <a href="/New/Memo.cgi" rel="nofollow">New Book Memo</a>
+            </div>
+        </div>
+
+        <a href="/contact/" rel="nofollow">Contact</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">☰</a>
+  </div>
+</div>
+
+
+<br>
+<p class="disclosure">DISCLOSURE:
+When you click on links to various merchants on this site and make a purchase, this can result in this site earning a commission at no extra cost to you. Affiliate programs and affiliations include, but are not limited to, the eBay Partner Network, Amazon and Alibris.
+</p>
+
+
+<div class="columnsContainer">
+    <div class="rightColumn">
+<div style="width:300px;">
+Please share to <a href="https://www.facebook.com/share.php?u=https://www.addall.com/">
+<img loading="lazy" src="/icons/social-fb-32.png" width="32" height="32" title="share to facebook" alt="share to facebook"></a>
+
+<a href="https://twitter.com/share?url=https://www.addall.com/&amp;text=AddALL%20book%20price%20comparison+One-click%20to%20search%20and%20compare%20book%20price%20among%20thousands%20of%20booksellers%20by%20using%20AddALL.com">
+<img loading="lazy" src="/icons/social-twitter-32.png" width="32" height="32" title="share to twitter" alt="share to twitter"></a>
+
+<a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://www.addall.com/&amp;title=AddALL%20book%20price%20comparison&amp;summary=One-click%20to%20search%20and%20compare%20book%20price%20among%20thousands%20of%20booksellers%20by%20using%20AddALL.com&amp;source=addall.com">
+<img loading="lazy" src="/icons/social-linkedin-32-2.png" width="32" height="32" title="share to linkedin" alt="share to linkedin"></a>
+
+<a href="mailto:?subject=AddALL%20book%20price%20comparison&amp;body=https://www.addall.com/">
+<img loading="lazy" src="/icons/social-mail-32.png" width="32" height="32" title="share by email" alt="share by email"></a>
+</div>
+<style>#authorfirst{display:table-row;}
+#titlefirst{display:none;}
+</style>        <div id="notabs" class="tabs-smaller">
+        <ul class="ui-notabs ui-helper-clearfix">
+            <li class="li-active li-all tooltip" title="New &amp; used books&lt;br&gt;price comparison&lt;br&gt;include shipping">In-print Books</li>
+            <li class="li-all li-inactive "><a href="/used/" style="text-decoration:none;color:black;" title="Used and out-of-print books&lt;br&gt;without shipping" class="tooltip">Used Books</a></li>
+        </ul>
+        <div id="newbook">
+        <div class="container">
+	    <div style="width:100%;"><h3 style="font-weight:600;margin:2px;">New &amp; used books price comparison with shipping!</h3>
+	    </div>
+
+<script type="text/javascript" async="" charset="utf-8" src="https://www.gstatic.com/recaptcha/releases/gTpTIWhbKpxADzTzkcabhXN4/recaptcha__en.js" crossorigin="anonymous" integrity="sha384-H/5bR8BVxoDZIIp1lThXvsuAj/gHvImPQ0kayVpCevmOrRalo0FwJubK3EoX8w37"></script><script src="https://www.google.com/recaptcha/api.js?render=6Lf1RPwUAAAAAKWd9ELWFLkUcz3MSOUFrubyS0Hr"></script>
+<script>
+grecaptcha.ready(function() {
+    grecaptcha.execute('6Lf1RPwUAAAAAKWd9ELWFLkUcz3MSOUFrubyS0Hr', {action: 'submit_new'})
+    .then(function(token) {
+        document.getElementById('g-recaptcha-response').value = token;
+    });
+});
+
+// Also handle when the page is restored from cache (e.g., after clicking the back button)
+window.onpageshow = function(event) {
+    if (event.persisted) {
+        // If the page is loaded from bfcache, refresh the reCAPTCHA token
+        grecaptcha.execute('6Lf1RPwUAAAAAKWd9ELWFLkUcz3MSOUFrubyS0Hr', {action: 'submit_new'})
+        .then(function(token) {
+            document.getElementById('g-recaptcha-response').value = token;
+        });
+    }
+};
+
+</script>
+            <form action="/New/NewSearch.cgi" name="newform" accept-charset="UTF-8">
+            <input id="query" type="search" name="query" placeholder="search">
+
+            <select name="type">
+                <option value="Title" style="">Search by Title</option>
+                <option value="Author" style="">Search by Author</option>
+                <option value="ISBN" style="">Search by ISBN</option>
+                <option value="Key" style="">Search by Keyword</option>
+            </select>
+
+            <select name="location">
+                <option value="">Shipping Destination:</option>
+                <option value="10000"> Continental United States</option>
+                <option value="10100">   APO or FPO</option>
+                <option value="10200">   Alaska or Hawaii</option>
+                <option value="10300">   U.S. Virgin Islands</option>
+                <option value="10400">   Puerto Rico</option>
+                <option value="11000"> Canada</option>
+                <option value="12000"> Mexico</option>
+                <option value="19000"> Latin American Country</option>
+                <option value="20000"> Europe</option>
+                <option value="20300">   Austria</option>
+                <option value="20600">   Belgium</option>
+                <option value="20900">   France</option>
+                <option value="20200">   Germany</option>
+                <option value="20100">   Great Britain</option>
+                <option value="20500">   Liechtenstein</option>
+                <option value="20800">   Luxembourg</option>
+                <option value="20700">   Netherlands</option>
+                <option value="20400">   Switzerland</option>
+                <option value="20000">   Other European Country</option>
+                <option value="30000"> Asian and Pacific Islands</option>
+                <option value="30100">   Guam</option>
+                <option value="30000">   Israel</option>
+                <option value="30000">   Other Asian Country</option>
+                <option value="40000"> Australasia  </option>
+                <option value="40100">   Australia</option>
+                <option value="40200">   New Zealand</option>
+                <option value="50000"> Africa  </option>
+            </select>
+
+            <select name="state">
+                <option value="">US State</option>
+                <option value="AK">AK - Alaska</option>
+                <option value="AL">AL - Alabama</option>
+                <option value="AR">AR - Arkansas</option>
+                <option value="AZ">AZ - Arizona</option>
+                <option value="CA">CA - California</option>
+                <option value="CO">CO - Colorado</option>
+                <option value="CT">CT - Connecticut</option>
+                <option value="DC">DC - District of Columbia</option>
+                <option value="DE">DE - Delaware</option>
+                <option value="FL">FL - Florida</option>
+                <option value="GA">GA - Georgia</option>
+                <option value="GU">GU - Guam</option>
+                <option value="HI">HI - Hawaii</option>
+                <option value="IA">IA - Iowa</option>
+                <option value="ID">ID - Idaho</option>
+                <option value="IL">IL - Illinois</option>
+                <option value="IN">IN - Indiana</option>
+                <option value="KS">KS - Kansas</option>
+                <option value="KY">KY - Kentucky</option>
+                <option value="LA">LA - Louisiana</option>
+                <option value="MA">MA - Massachusetts</option>
+                <option value="MD">MD - Maryland</option>
+                <option value="ME">ME - Maine</option>
+                <option value="MI">MI - Michigan</option>
+                <option value="MN">MN - Minnesota</option>
+                <option value="MO">MO - Missouri</option>
+                <option value="MS">MS - Mississippi</option>
+                <option value="MT">MT - Montana</option>
+                <option value="NC">NC - North Carolina</option>
+                <option value="ND">ND - North Dakota</option>
+                <option value="NE">NE - Nebraska</option>
+                <option value="NV">NV - Nevada</option>
+                <option value="NH">NH - New Hampshire</option>
+                <option value="NJ">NJ - New Jersey</option>
+                <option value="NM">NM - New Mexico</option>
+                <option value="NY">NY - New York</option>
+                <option value="OH">OH - Ohio</option>
+                <option value="OK">OK - Oklahoma</option>
+                <option value="OR">OR - Oregon</option>
+                <option value="PA">PA - Pennsylvania</option>
+                <option value="PR">PR - Puerto Rico</option>
+                <option value="RI">RI - Rhode Island</option>
+                <option value="SC">SC - South Carolina</option>
+                <option value="SD">SD - South Dakota</option>
+                <option value="TN">TN - Tennessee</option>
+                <option value="TX">TX - Texas</option>
+                <option value="UT">UT - Utah</option>
+                <option value="VA">VA - Virginia</option>
+                <option value="VT">VT - Vermont</option>
+                <option value="WA">WA - Washington</option>
+                <option value="WI">WI - Wisconsin</option>
+                <option value="WV">WV - West Virginia</option>
+                <option value="WY">WY - Wyoming</option>
+            </select>
+                    
+            <select name="dispCurr">
+                <option value="">Display Currency in</option>
+                    <option class="USD" value="USD" selected="">US$</option>
+                    <option class="EUR" value="EUR">EURO</option>
+                    <option class="AUD" value="AUD">Australian$</option>
+                    <option class="CAD" value="CAD">Canadian$</option>
+                    <option class="INR" value="INR">Indian Rupee</option>
+                    <option class="JPY" value="JPY">Japanese ¥en</option>
+                    <option class="CHF" value="CHF">Swiss Franc</option>
+                    <option class="TWD" value="TWD">Taiwan NT</option>
+                    <option class="NZD" value="NZD">New Zealand</option>
+                    <option class="SGD" value="SGD">Singapore$</option>
+                    <option class="ZAR" value="ZAR">S. Africa Rand</option>
+                    <option class="SEK" value="SEK">Swedish Krona</option>
+                    <option class="GBP" value="GBP">UK£</option>
+            </select>
+		<input type="hidden" name="via" value="new">
+<input type="hidden" name="g-recaptcha-response" id="g-recaptcha-response">
+            <button type="submit" class="newbtn">Comparison with shipping</button>
+            <button type="reset" class="clearbtn">Start Over</button>
+            </form>
+        </div><!-- container-->
+        </div> <!-- newbook-->
+
+        </div>
+
+<div style="margin:0 0 7px 0;line-height:2;">
+Please follow us on <a href="https://www.facebook.com/addallcom" target="_blank">
+<img loading="lazy" src="/icons/social-fb-32.png" width="32" height="32" title="AddALL facebook page" alt="AddALL Facebook page"></a> 
+<a href="https://twitter.com/addall" target="_blank">
+<img loading="lazy" src="/icons/social-twitter-32.png" width="32" height="32" title="twitter page" alt="twitter page"></a>
+</div>
+
+    </div> <!-- div rightColumn-->
+
+    <div class="leftColumn">
+        <h1>Buy Textbooks, Cheap Books Online Book Price Comparison? </h1>
+        <h2>No problem AddALL!</h2>
+		<p>AddALL is a website that compares book prices among all top bookstores. You will find cheapest books here.</p>
+        <p>
+            Search and Compare prices among 100,000+ booksellers, bookstores, millions of books! 
+		One-click to find and buy cheap new, used and <a href="/textbooks/" class="black">college textbooks</a>. Search books easily by ISBN, author or title.  Best results by <a href="/isbn/" class="black">ISBN lookup</a>. </p>
+
+		<p>You can find the cheapest textbook prices by using this book price comparison website. Compare textbook bookstores prices is easy here!
+		</p>
+
+		<p>Before you decide to purchase, you can read our <a class="link-green-bottom black" href="/reviews/">Book reviews</a> or <a class="link-green-bottom black" href="/bikes/">Bike reviews</a> to see what others say about a product.
+        </p>
+		<p>Please visit <a class="link-green-bottom black" href="/books-in-order/">books in order</a> to find out which book comes next when reading a series, the list of books in publication and reading order by author.</p>
+    </div>
+
+</div>
+
+<div class="copyright">
+<p><b>DISCLOSURE:
+When you click on links to various merchants on this site and make a purchase, this can result in this site earning a commission at no extra cost to you. Affiliate programs and affiliations include, but are not limited to, the eBay Partner Network, Amazon, Alibris.
+</b>
+</p>
+
+[<a href="/privacy.html" rel="nofollow">Privacy policy</a>
+| <a href="/New/quote.cgi">Random quotes</a>
+| <a href="/link/" rel="nofollow">Link to us</a>
+| <a href="/about/">About us</a>
+]<br>
+
+Copyright © 1998-<span id="current-year">2026</span>, Addall.com Pte Ltd. All rights reserved.
+<script>document.getElementById("current-year").innerHTML = new Date().getFullYear();</script>
+</div>
+<link rel="preload" href="/js/jquery.ui.respond.powertip.min.js" as="script" crossorigin="anonymous">
+<link rel="preload" href="/js/addall2.js" as="script" crossorigin="anonymous">
+<script>
+(function() {
+      function getScript(url,success){
+        var script=document.createElement('script');
+        script.src=url;
+        var head=document.getElementsByTagName('head')[0],
+            done=false;
+        script.onload=script.onreadystatechange = function(){
+          if ( !done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete') ) {
+            done=true;
+            success();
+            script.onload = script.onreadystatechange = null;
+            head.removeChild(script);
+          }
+        };
+        head.appendChild(script);
+      }
+        getScript('/js/jquery.ui.respond.powertip.min.js',function(){
+  $( function() {
+$("#tabs").tabs({
+  active: localStorage.getItem("currentIdx"),
+  activate: function(event, ui) {
+      localStorage.setItem("currentIdx", $(this).tabs('option', 'active'));
+  }
+});
+  } );
+              getScript('/js/addall2.js',function(){
+              });
+        });
+    })();
+</script>
+<script>
+var mybutton = document.getElementById("topBtn");
+window.onscroll = function() {scrollFunction()};
+function scrollFunction() {
+  if (document.body.scrollTop > 520 || document.documentElement.scrollTop > 520) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-144411-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-144411-1');
+  gtag('config', 'G-96981GDF72');
+</script>
+
+
+
+
+
+</body></html>
+content_3=<html><head></head><body>Bot activity detected: missing token
+</body></html>
+Title: The Crossing (The Border Trilogy, Book 2) by McCarthy, Cormac [Paperback]
+Authors: McCarthy, Cormac [Paperback]
+Affiliate: EBAY
+Title: The Crossing (The Border Trilogy, Book 2) by Cormac McCarthy (Paperback)
+Authors: Cormac McCarthy (Paperback)
+Affiliate: EBAY
+Title: Crossing, Paperback by McCarthy, Cormac, Brand New,  in the US
+Authors: McCarthy, Cormac, Brand New,  in the US
+Affiliate: EBAY
+Title: The Crossing: Border Trilogy (2)
+Authors: McCarthy, Cormac
+Affiliate: EBAY
+Title: Crossing
+Authors: McCarthy, Cormac
+Affiliate: ABEBOOKS
+Full Match: 5. Edition: Softcover, 9780679760849 Publisher: Vintage, 1995 Condition: New $18.55 From: GreatBookPrices, United States
+Row: 5
+Edition: Softcover
+ISBN: 9780679760849
+Price: 18.55
+From: GreatBookPrices, United States
+data=plugin_name='' plugin_data=('9780679760849', 'Crossing', 'McCarthy, Cormac', 18.55, 'ABEBOOKS', 'https://affiliates.abebooks.com/c/59145/212653/2029?u=www.abebooks.com%2Fservlet%2FShopBasket%3Fac%3Da%26ik%3D30327128095')
+Title: The Crossing (Paperback)
+Authors: Cormac McCarthy
+Affiliate: ABEBOOKS
+Title: The Crossing Format: Paperback
+Authors: Cormac Mccarthy
+Affiliate: ABEBOOKS
+Full Match: 7. Edition: Softcover, 9780679760849 Publisher: Penguin Random House, 1995 Condition: New $18.58 From: INDOO, United States
+Row: 7
+Edition: Softcover
+ISBN: 9780679760849
+Price: 18.58
+From: INDOO, United States
+data=plugin_name='' plugin_data=('9780679760849', 'The Crossing Format: Paperback', 'Cormac Mccarthy', 18.58, 'ABEBOOKS', 'https://affiliates.abebooks.com/c/59145/212653/2029?u=www.abebooks.com%2Fservlet%2FShopBasket%3Fac%3Da%26ik%3D31852126469')
+Title: The Crossing: Border Trilogy (2)
+Authors: McCarthy, Cormac
+Affiliate: ABEBOOKS
+Title: The Crossing: Border Trilogy (2)
+Authors: McCarthy, Cormac
+Affiliate: ALIBRIS
+Title: The Crossing: Border Trilogy (2)
+Authors: McCarthy, Cormac
+Affiliate: ALIBRIS
+Title: The Crossing Format: Paperback
+Authors: McCarthy, Cormac
+Affiliate: ALIBRIS
+Title: The Crossing: Border Trilogy (2)
+Authors: McCarthy, Cormac
+Affiliate: ALIBRIS
+Title: The Crossing
+Authors: McCarthy, Cormac,
+Affiliate: BIBLIO
+Title: The Crossing (Vintage International)
+Authors: Cormac Mccarthy
+Affiliate: BIBLIO
+Title: The Crossing: Border Trilogy (2)
+Authors: McCarthy, Cormac
+Affiliate: ALIBRIS
+Title: The Crossing
+Authors: Cormac McCarthy
+Affiliate: ABEBOOKS
+Full Match: 16. Edition: Softcover, 9780679760849 Publisher: Random House USA Inc, US, 1995 Condition: New $20.15 From: Rarewaves USA, United States
+Row: 16
+Edition: Softcover
+ISBN: 9780679760849
+Price: 20.15
+From: Rarewaves USA, United States
+data=plugin_name='' plugin_data=('9780679760849', 'The Crossing', 'Cormac McCarthy', 20.15, 'ABEBOOKS', 'https://affiliates.abebooks.com/c/59145/212653/2029?u=www.abebooks.com%2Fservlet%2FShopBasket%3Fac%3Da%26ik%3D32236892131')
+Title: The Crossing: Border Trilogy (2)
+Authors: McCarthy, Cormac
+Affiliate: BIBLIO
+Title: The Crossing: Border Trilogy (2)
+Authors: McCarthy, Cormac
+Affiliate: ALIBRIS
+Title: The Crossing: Border Trilogy (2)
+Authors: McCarthy, Cormac
+Affiliate: ABEBOOKS
+Full Match: 20. Edition: Softcover, 9780679760849 Publisher: Vintage, 1995 Condition: New $21.00 From: California Books, United States
+Row: 20
+Edition: Softcover
+ISBN: 9780679760849
+Price: 21.00
+From: California Books, United States
+data=plugin_name='' plugin_data=('9780679760849', 'The Crossing: Border Trilogy (2)', 'McCarthy, Cormac', 21.0, 'ABEBOOKS', 'https://affiliates.abebooks.com/c/59145/212653/2029?u=www.abebooks.com%2Fservlet%2FShopBasket%3Fac%3Da%26ik%3D31752757664')
+Title: CROSSING: Border Trilogy (2): Vol 2
+Authors: McCarthy, Cormac
+Affiliate: AMAZON_IND
+Title: The Crossing: Border Trilogy (2) by Cormac McCarthy: New
+Authors: Cormac McCarthy: New
+Affiliate: EBAY
+Title: The Crossing: Border Trilogy (2) by Cormac McCarthy (English) Paperback Book
+Authors: Cormac McCarthy (English) Paperback Book
+Affiliate: EBAY
+Title: The Crossing: Border Trilogy (2)
+Authors: Cormac McCarthy
+Affiliate: ALIBRIS
+Title: The Crossing
+Authors: CORMAC MCCARTHY
+Affiliate: ZVAB
+Full Match: 27. Edition: Softcover, 9780679760849 Publisher: Vintage March 1995, 1995 Condition: New $21.99 From: Eagle Eye Books, United States
+Row: 27
+Edition: Softcover
+ISBN: 9780679760849
+Price: 21.99
+From: Eagle Eye Books, United States
+data=plugin_name='' plugin_data=('9780679760849', 'The Crossing', 'CORMAC MCCARTHY', 21.99, 'ZVAB', 'https://affiliates.abebooks.com/c/59145/203019/2029?u=www.zvab.com%2Fservlet%2FShopBasket%3Fac%3Da%26ik%3D31538507219')
+Title: The Crossing
+Authors: CORMAC MCCARTHY
+Affiliate: ABEBOOKS
+Full Match: 28. Edition: Softcover, 9780679760849 Publisher: Vintage March 1995, 1995 Condition: New $21.99 From: Eagle Eye Books, United States
+Row: 28
+Edition: Softcover
+ISBN: 9780679760849
+Price: 21.99
+From: Eagle Eye Books, United States
+data=plugin_name='' plugin_data=('9780679760849', 'The Crossing', 'CORMAC MCCARTHY', 21.99, 'ABEBOOKS', 'https://affiliates.abebooks.com/c/59145/212653/2029?u=www.abebooks.com%2Fservlet%2FShopBasket%3Fac%3Da%26ik%3D31538507219')
+Title: Crossing Border Trilogy (2)
+Authors: McCarthy, Cormac
+Affiliate: ALIBRIS
+Title: The Crossing: Border Trilogy (2) by Cormac McCarthy (English) Paperback Book
+Authors: Cormac McCarthy (English) Paperback Book
+Affiliate: EBAY
+Title: Cormac McCarthy The Crossing (Paperback) Vintage International
+Authors: McCarthy, Cormac
+Affiliate: EBAY
+Title: The Crossing (the Border Trilogy, Book 2)
+Authors: Cormac McCarthy
+Affiliate: ALIBRIS
+Title: The Crossing: Border Trilogy (2)
+Authors: McCarthy, Cormac
+Affiliate: ABEBOOKS
+Full Match: 34. Edition: Softcover, 9780679760849 Publisher: Vintage, 1995 Condition: New $22.99 From: Fallen Leaf Books, United States
+Row: 34
+Edition: Softcover
+ISBN: 9780679760849
+Price: 22.99
+From: Fallen Leaf Books, United States
+data=plugin_name='' plugin_data=('9780679760849', 'The Crossing: Border Trilogy (2)', 'McCarthy, Cormac', 22.99, 'ABEBOOKS', 'https://affiliates.abebooks.com/c/59145/212653/2029?u=www.abebooks.com%2Fservlet%2FShopBasket%3Fac%3Da%26ik%3D31972486045')
+Title: The Crossing: Border Trilogy (2)
+Authors: Cormac McCarthy
+Affiliate: BIBLIO
+Title: Crossing Border Trilogy (2)
+Authors: McCarthy, Cormac
+Affiliate: ALIBRIS
+Title: The Crossing
+Authors: McCarthy, Cormac
+Affiliate: ZVAB
+Title: The Crossing
+Authors: McCarthy, Cormac
+Affiliate: ABEBOOKS
+Title: The Crossing (The Border Trilogy, Book 2)
+Authors: Cormac McCarthy
+Affiliate: BIBLIO
+Title: The Crossing (The Border Trilogy, Book 2)
+Authors: Cormac McCarthy
+Affiliate: ABEBOOKS
+Full Match: 41. Edition: Softcover, 9780679760849 Publisher: Vintage May 1995, 1995 Condition: New $23.95 From: Eighth Day Books, LLC, United States
+Row: 41
+Edition: Softcover
+ISBN: 9780679760849
+Price: 23.95
+From: Eighth Day Books, LLC, United States
+data=plugin_name='' plugin_data=('9780679760849', 'The Crossing (The Border Trilogy, Book 2)', 'Cormac McCarthy', 23.95, 'ABEBOOKS', 'https://affiliates.abebooks.com/c/59145/212653/2029?u=www.abebooks.com%2Fservlet%2FShopBasket%3Fac%3Da%26ik%3D32311709576')
+Title: The Crossing: Border Trilogy (2)
+Authors: McCarthy, Cormac
+Affiliate: AMAZON_USA
+Title: The Crossing: Border Trilogy (2)
+Authors: McCarthy, Cormac
+Affiliate: AMAZON_USA
+Title: The Crossing: Border Trilogy (2)
+Authors: McCarthy, Cormac
+Affiliate: ABEBOOKS
+Full Match: 44. Edition: Softcover, 9780679760849 Publisher: Vintage, 1995 Condition: New $25.75 From: Massive Bookshop, United States
+Row: 44
+Edition: Softcover
+ISBN: 9780679760849
+Price: 25.75
+From: Massive Bookshop, United States
+data=plugin_name='' plugin_data=('9780679760849', 'The Crossing: Border Trilogy (2)', 'McCarthy, Cormac', 25.75, 'ABEBOOKS', 'https://affiliates.abebooks.com/c/59145/212653/2029?u=www.abebooks.com%2Fservlet%2FShopBasket%3Fac%3Da%26ik%3D32274532661')
+Title: The Crossing: Border Trilogy (2)
+Authors: McCarthy, Cormac
+Affiliate: BIBLIO
+Title: The Crossing (The Border Trilogy No. 2)
+Authors: McCarthy, Cormac
+Affiliate: EBAY
+Title: The Crossing (The Border Trilogy, Book 2)
+Authors: McCarthy, Cormac
+Affiliate: ZVAB
+Title: The Crossing (The Border Trilogy, Book 2)
+Authors: McCarthy, Cormac
+Affiliate: ABEBOOKS
+Title: The Crossing
+Authors: McCarthy, Cormac
+Affiliate: ALIBRIS
+Title: The Crossing: Border Trilogy (2)
+Authors: McCarthy, Cormac
+Affiliate: AMAZON_MEX
+INFO:     172.20.0.1:58780 - "POST /fetch HTTP/1.1" 200 OK
