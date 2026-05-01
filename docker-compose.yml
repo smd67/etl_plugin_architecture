@@ -1,11 +1,25 @@
 
 services:
-  book-arbitrage-frontend: # Name of the frontend service
-    build: frontend/book_arbitrage
+  epa-frontend: # Name of the frontend service
+    build: frontend/epa_plugin_architecture
     ports: 
       - "10015:80"
     
-  book-arbitrage-backend: # Name of the backend service
+  epa-backend: # Name of the backend service
     build: backend
+    environment:
+        - PLUGINS_DIR=/app/plugins
+        - ASSETS_DIR=/app/assets
+        - FIXTURES_DIR=/app/fixtures 
+        - DISPLAY=:99
+    volumes:
+        - /Users/stephendimig/repos/book_arbitrage/plugins:/app/plugins
+        - /Users/stephendimig/repos/book_arbitrage/assets:/app/assets
+        - /Users/stephendimig/repos/book_arbitrage/fixtures:/app/fixtures
     ports:
       - "8015:8000"
+
+volumes:
+  plugins:
+  assets:
+  fixtures:

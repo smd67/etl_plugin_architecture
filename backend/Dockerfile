@@ -14,10 +14,12 @@ RUN apt-get update && \
         libxdamage1 \
         libxfixes3 \
         libxrandr2 \
-        libxkbcommon0 \ 
+        libxkbcommon0 \
+        ffmpeg \
+        xvfb \
+        xauth \
     && rm -rf /var/lib/apt/lists/*
 
-RUN apt-get update && apt-get install -y ffmpeg
 
 # Set the working directory in the container
 WORKDIR /app
@@ -27,20 +29,28 @@ RUN pip install poetry
 
 COPY pyproject.toml poetry.lock src/download.py ./
 
-RUN poetry install --no-root
+#RUN poetry install --no-root
+RUN poetry config virtualenvs.create false \
+    && poetry install --no-interaction --no-ansi --no-root
 
-RUN poetry run playwright install-deps
+RUN playwright install-deps
 
-RUN poetry run playwright install chromium
+RUN playwright install chromium
 
-RUN poetry run python download.py
+RUN python download.py
 
 COPY . /app
 
 # Expose the port your application listens on (if applicable)
-EXPOSE 8005
+EXPOSE 8000
 
 ENV PYTHONPATH="${PYTHONPATH}:/app/src"
 
+# Copy a startup script
+COPY bin/entry_point.sh ./
+RUN chmod +x /app/entry_point.sh
+
 # Define the command to run your application
-CMD ["poetry", "run", "uvicorn", "src.endpoint:app", "--host", "0.0.0.0", "--reload"]
+ENTRYPOINT ["/app/entry_point.sh"]
+
+CMD ["uvicorn", "src.endpoint:app", "--host", "0.0.0.0", "--reload"]
