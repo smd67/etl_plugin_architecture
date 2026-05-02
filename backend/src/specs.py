@@ -22,8 +22,7 @@ import pluggy
 from model import AppResult, PluginQuery, PluginResult
 
 # Global variables
-application_name = os.getenv("APPLICATION_NAME")
-APPLICATION_NAME = application_name if application_name else ""
+APPLICATION_NAME  = os.getenv("APPLICATION_NAME", "")
 
 hookspec = pluggy.HookspecMarker(APPLICATION_NAME + "-plugins")
 class PluginSpecs:

@@ -27,8 +27,7 @@ from model import AppResult, PluginQuery, PluginResult
 from specs import FixtureSpecs, PluginSpecs
 
 # Global variables
-application_name = os.getenv("APPLICATION_NAME")
-APPLICATION_NAME: str = application_name if application_name else ""
+APPLICATION_NAME: str = os.getenv("APPLICATION_NAME", "")
 KV_STORE: Dict[Any, Any] = {}
 
 # Fast API declarations
