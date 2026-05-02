@@ -12,6 +12,7 @@ services:
         - ASSETS_DIR=/app/assets
         - FIXTURES_DIR=/app/fixtures 
         - DISPLAY=:99
+        - APPLICATION_NAME=book_arbitrage
     volumes:
         - /Users/stephendimig/repos/book_arbitrage/plugins:/app/plugins
         - /Users/stephendimig/repos/book_arbitrage/assets:/app/assets

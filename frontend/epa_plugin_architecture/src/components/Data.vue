@@ -1,5 +1,7 @@
 <!--
-This file is the vue component implementation for an other items detail screen.
+This file is the vue component implementation for a generic screen that can be 
+used for the ETL Plugin Architecture. It consists of a table to display
+the results plus the abilitym to save the table as a CSV file.
  -->
 <template>
   <div class="my-division">
@@ -137,7 +139,7 @@ This file is the vue component implementation for an other items detail screen.
     link.click();
   };
 
-  // Retrieve Datas from the database through a REST call.
+  // Retrieve Data from the database through a REST call.
   const fetchData = async () => {
     isUpdated.value = false;
     loading.value = true;
@@ -167,7 +169,7 @@ This file is the vue component implementation for an other items detail screen.
     }
   };
 
-  // Retrieve Datas from the database through a REST call.
+  // Retrieve headers from the database through a REST call.
   const fetchDataHeaders = async () => {
     const config = {
         headers: {
@@ -189,7 +191,7 @@ This file is the vue component implementation for an other items detail screen.
     }
   };
 
-  // Retrieve Datas from the database through a REST call.
+  // Retrieve properties from the database through a REST call.
   const fetchProperties = async () => {
     const config = {
         headers: {
@@ -224,7 +226,7 @@ This file is the vue component implementation for an other items detail screen.
     }
   };
 
-  // Retrieve Datas from the database through a REST call.
+  // Retrieve the icon imnage to display from the database through a REST call.
   const fetchIcon = async () => {
     const config = {
         headers: {
