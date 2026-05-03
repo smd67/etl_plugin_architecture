@@ -106,6 +106,7 @@ the results plus the abilitym to save the table as a CSV file.
   const buttonStyle = ref('#F5F5DC');
   const sortBy = ref([]);
   const csvFileName = ref("data.csv"); 
+  const keyName = ref(null);
 
   // Table headers
   const dataHeaders = ref([]);
@@ -150,8 +151,9 @@ the results plus the abilitym to save the table as a CSV file.
         }
     };
     const requestBody = {
-      isbn: dataInput.value,
+      [keyName.value]: dataInput.value,
     };
+    console.log("requestBody=" + JSON.stringify(requestBody));
     try {
         const response = await api.post('/fetch', requestBody, config);
         console.log("response=" + JSON.stringify(response));
@@ -215,6 +217,8 @@ the results plus the abilitym to save the table as a CSV file.
         buttonStyle.value = response.data.button_style;
         csvFileName.value = response.data.csv_file_name;
         sortBy.value = response.data.sort_by;
+        keyName.value = response.data.key_name;
+        console.log("keyName=" + keyName.value);
     } catch (e) {
         loading.value = false;
         console.log("error=" + e)
@@ -295,7 +299,7 @@ the results plus the abilitym to save the table as a CSV file.
   }
 
   .outer-div {
-    width: 80%;
+    width: 100%;
     padding-top: 30px;
   }
 

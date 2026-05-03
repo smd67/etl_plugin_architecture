@@ -99,6 +99,8 @@ def fetch(query: Dict[Any, Any]) -> AppResult:
         A generic result that contains the data after the merge step completed.
     """
     
+    global KV_STORE
+    
     # Setup Plugin Manager
     pm = pluggy.PluginManager(APPLICATION_NAME + "-plugins")
     pm.add_hookspecs(PluginSpecs)
@@ -132,6 +134,8 @@ def fetch(query: Dict[Any, Any]) -> AppResult:
         fixtures, fixtures_dir if fixtures_dir else "src/fixtures"
     )
     results = fixtures.hook.merge_results(kv_store=KV_STORE)
+
+    KV_STORE = {}
 
     # Finally, the results are returned.
     return results[0]

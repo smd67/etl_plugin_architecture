@@ -13,10 +13,14 @@ services:
         - FIXTURES_DIR=/app/fixtures 
         - DISPLAY=:99
         - APPLICATION_NAME=book_arbitrage
+        #- APPLICATION_NAME=asset_tracker
     volumes:
         - /Users/stephendimig/repos/book_arbitrage/plugins:/app/plugins
         - /Users/stephendimig/repos/book_arbitrage/assets:/app/assets
         - /Users/stephendimig/repos/book_arbitrage/fixtures:/app/fixtures
+        #- /Users/stephendimig/repos/asset_tracker_plugin/plugins:/app/plugins
+        #- /Users/stephendimig/repos/asset_tracker_plugin/assets:/app/assets
+        #- /Users/stephendimig/repos/asset_tracker_plugin/fixtures:/app/fixtures
     ports:
       - "8015:8000"
 
