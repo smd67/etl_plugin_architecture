@@ -6,19 +6,19 @@ The ETL Plugin Architecture (EPA) is a generalized framework for rapidly develop
 ## Abstractions
 # Fixtures
 Fixtures are used to perform processing steps outside of the ETL processing including:
-    * Provide header structure to frontend
-    * Provide properties to frontend
-    * Provide an icon to the frontend
-    * Merge the final results from the plugins
+* Provide header structure to frontend
+* Provide properties to frontend
+* Provide an icon to the frontend
+* Merge the final results from the plugins
 
 # Plugins
 Plugins are customizable units that perform a single thread of ETL processing. All plugins need to implement an extract, transform, and a load method. Each plugin is executed within a chain that is part of a DAG. The DAG runs all of the Chains in parallel.
-    * Extract - The extract method is used to pull data from various sources like REST APIs, web scraping, or databases.  
-      One source per plugin is a good rule of thumb.
-    * Transform - The transform method is used to clean, map, and transform the extracted data into a into a standardized 
-      format.
-    * Load -  The transformed, structured data is written into the destination system, typically a data warehouse or data 
-      lake, also used to marshall data into an internal storage.
+* Extract - The extract method is used to pull data from various sources like REST APIs, web scraping, or databases.  
+    One source per plugin is a good rule of thumb.
+* Transform - The transform method is used to clean, map, and transform the extracted data into a into a standardized 
+    format.
+* Load -  The transformed, structured data is written into the destination system, typically a data warehouse or data 
+    lake, also used to marshall data into an internal storage.
 
 ## Technology Stack
 ### Frontend
